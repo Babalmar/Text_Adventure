@@ -11,7 +11,8 @@ def display_text(filename):
         print(text)
         f.close()
 
-display_text('start.txt')
+
+display_text('./Texts/start.txt')
 equipement_list()
 while True:
     decision = input("Which path will you choose?\n>>> ")
@@ -30,5 +31,5 @@ elif decision == 'w':
     print('You went to the swamp')
     equipement_list()
 elif decision == 's':
-    print('You went to the cementery')
+    print('You went to the cemetery')
     equipement_list()
