@@ -1,0 +1,5 @@
+You're standing on the plain.
+To the north (N) you see a thick forest.
+To the east (E) a village.
+To the west (W) you see the vile vapours from the swamp.
+To the south (S) Cementery.
