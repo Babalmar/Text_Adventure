@@ -2,17 +2,19 @@ import os
 
 equipment = ["Flask", "Rusty sword", "Pendant"]
 
+
 def equipement_list():
     print('Equipment:', ', '.join(equipment))
 
+
 def display_text(filename):
-    with open(filename, 'r') as f:
+    with open('./Texts/' + filename, 'r') as f:
         text = f.read()
         print(text)
         f.close()
 
 
-display_text('./Texts/start.txt')
+display_text('start.txt')
 equipement_list()
 while True:
     decision = input("Which path will you choose?\n>>> ")
